@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480481B41D4D3FBC002A2F5D /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480481B31D4D3FBC002A2F5D /* BNRDrawViewController.m */; };
+		485D09F41D4D37E600ACDCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 485D09F31D4D37E600ACDCDC /* main.m */; };
+		485D09F71D4D37E600ACDCDC /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 485D09F61D4D37E600ACDCDC /* BNRAppDelegate.m */; };
+		485D09F91D4D37E600ACDCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485D09F81D4D37E600ACDCDC /* Assets.xcassets */; };
+		485D09FC1D4D37E600ACDCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485D09FA1D4D37E600ACDCDC /* LaunchScreen.storyboard */; };
+		485D0A051D4D385700ACDCDC /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 485D0A041D4D385700ACDCDC /* BNRLine.m */; };
+		48D7883B1D4D3AA9006AF84B /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D7883A1D4D3AA9006AF84B /* BNRDrawView.m */; };
+		E034718F1D8504D500CB0D5D /* ColorPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E034718E1D8504D500CB0D5D /* ColorPanelView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		480481B21D4D3FBC002A2F5D /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
+		480481B31D4D3FBC002A2F5D /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
+		485D09EF1D4D37E600ACDCDC /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485D09F31D4D37E600ACDCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		485D09F51D4D37E600ACDCDC /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		485D09F61D4D37E600ACDCDC /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		485D09F81D4D37E600ACDCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485D09FB1D4D37E600ACDCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485D09FD1D4D37E600ACDCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485D0A031D4D385700ACDCDC /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
+		485D0A041D4D385700ACDCDC /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
+		48D788391D4D3AA9006AF84B /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRDrawView.h; path = ../BNRDrawView.h; sourceTree = "<group>"; };
+		48D7883A1D4D3AA9006AF84B /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRDrawView.m; path = ../BNRDrawView.m; sourceTree = "<group>"; };
+		E034718E1D8504D500CB0D5D /* ColorPanelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPanelView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485D09EC1D4D37E600ACDCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485D09E61D4D37E600ACDCDC = {
+			isa = PBXGroup;
+			children = (
+				485D09F11D4D37E600ACDCDC /* TouchTracker */,
+				485D09F01D4D37E600ACDCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485D09F01D4D37E600ACDCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485D09EF1D4D37E600ACDCDC /* TouchTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485D09F11D4D37E600ACDCDC /* TouchTracker */ = {
+			isa = PBXGroup;
+			children = (
+				485D09F51D4D37E600ACDCDC /* BNRAppDelegate.h */,
+				485D09F61D4D37E600ACDCDC /* BNRAppDelegate.m */,
+				485D0A031D4D385700ACDCDC /* BNRLine.h */,
+				485D0A041D4D385700ACDCDC /* BNRLine.m */,
+				48D788391D4D3AA9006AF84B /* BNRDrawView.h */,
+				48D7883A1D4D3AA9006AF84B /* BNRDrawView.m */,
+				480481B21D4D3FBC002A2F5D /* BNRDrawViewController.h */,
+				480481B31D4D3FBC002A2F5D /* BNRDrawViewController.m */,
+				E034718E1D8504D500CB0D5D /* ColorPanelView.xib */,
+				485D09F81D4D37E600ACDCDC /* Assets.xcassets */,
+				485D09FA1D4D37E600ACDCDC /* LaunchScreen.storyboard */,
+				485D09FD1D4D37E600ACDCDC /* Info.plist */,
+				485D09F21D4D37E600ACDCDC /* Supporting Files */,
+			);
+			path = TouchTracker;
+			sourceTree = "<group>";
+		};
+		485D09F21D4D37E600ACDCDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				485D09F31D4D37E600ACDCDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485D09EE1D4D37E600ACDCDC /* TouchTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485D0A001D4D37E600ACDCDC /* Build configuration list for PBXNativeTarget "TouchTracker" */;
+			buildPhases = (
+				485D09EB1D4D37E600ACDCDC /* Sources */,
+				485D09EC1D4D37E600ACDCDC /* Frameworks */,
+				485D09ED1D4D37E600ACDCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTracker;
+			productName = TouchTracker;
+			productReference = 485D09EF1D4D37E600ACDCDC /* TouchTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485D09E71D4D37E600ACDCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					485D09EE1D4D37E600ACDCDC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XQ2XAYN6LX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 485D09EA1D4D37E600ACDCDC /* Build configuration list for PBXProject "TouchTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485D09E61D4D37E600ACDCDC;
+			productRefGroup = 485D09F01D4D37E600ACDCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485D09EE1D4D37E600ACDCDC /* TouchTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485D09ED1D4D37E600ACDCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E034718F1D8504D500CB0D5D /* ColorPanelView.xib in Resources */,
+				485D09F91D4D37E600ACDCDC /* Assets.xcassets in Resources */,
+				485D09FC1D4D37E600ACDCDC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485D09EB1D4D37E600ACDCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485D09F71D4D37E600ACDCDC /* BNRAppDelegate.m in Sources */,
+				480481B41D4D3FBC002A2F5D /* BNRDrawViewController.m in Sources */,
+				485D0A051D4D385700ACDCDC /* BNRLine.m in Sources */,
+				485D09F41D4D37E600ACDCDC /* main.m in Sources */,
+				48D7883B1D4D3AA9006AF84B /* BNRDrawView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		485D09FA1D4D37E600ACDCDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485D09FB1D4D37E600ACDCDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485D09FE1D4D37E600ACDCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		485D09FF1D4D37E600ACDCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485D0A011D4D37E600ACDCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ2XAYN6LX;
+				INFOPLIST_FILE = TouchTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chike.TouchTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		485D0A021D4D37E600ACDCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ2XAYN6LX;
+				INFOPLIST_FILE = TouchTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chike.TouchTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485D09EA1D4D37E600ACDCDC /* Build configuration list for PBXProject "TouchTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485D09FE1D4D37E600ACDCDC /* Debug */,
+				485D09FF1D4D37E600ACDCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485D0A001D4D37E600ACDCDC /* Build configuration list for PBXNativeTarget "TouchTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485D0A011D4D37E600ACDCDC /* Debug */,
+				485D0A021D4D37E600ACDCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485D09E71D4D37E600ACDCDC /* Project object */;
+}
