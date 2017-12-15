@@ -1,5 +1,5 @@
 # Touch Tracker
-An iOS application that lets a user draw lines in different colors by dragging finger(s) across a view.
+An iOS application that lets a user draw lines in different colors by dragging finger(s) across the screen.
 
 <img src="https://media.giphy.com/media/xT0xeLNdvyCGDKutVK/giphy.gif">
 
