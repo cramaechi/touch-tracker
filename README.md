@@ -8,8 +8,8 @@ An iOS application that lets a user draw lines in different colors by dragging f
   * [iOS 7 SDK or later](https://developer.apple.com/download/)
   * [Xcode 5 or later](https://developer.apple.com/xcode/)
   
-   **Note:** A code signing key from Apple is required to deploy apps to a device. Without a developer key, the app
-             can only be installed on the iPhone/iPad Simulator.
+   > **Note**: A code signing key from Apple is required to deploy apps to a device. Without a developer key, the app
+   >           can only be installed on the iPhone/iPad Simulator.
   
 ## Instructions
 **How can I run this project?**
